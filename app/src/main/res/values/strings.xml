@@ -1,4 +1,344 @@
 <resources>
     <string name="app_name">TareaList</string>
     <string name="pComida">Seleccione el tipo de comida</string>
+    <!--Desayuno////////////////////////////////-->
+    <string-array name="avena">
+        <item>Galletas de avena</item>
+        <item>Pan de avena</item>
+        <item>Avena con yogurt</item>
+        <item>Tortillas de avena</item>
+    </string-array>
+    <string-array name="huevo">
+        <item>Huevos revueltos con vegetales</item>
+        <item>Tortilla española</item>
+        <item>Huevos en cocotte</item>
+        <item>Huevos en Benedict</item>
+    </string-array>
+    <string-array name="pan">
+        <item>Sandwich de pollo y aguacate</item>
+        <item>Bruschetta</item>
+        <item>Tostadas francesas</item>
+        <item>Pan con tomate y jamon</item>
+    </string-array>
+    <string-array name="yogurt">
+        <item>Parfait de yogurt y frutas</item>
+        <item>Salsa de yogurt para ensaladas</item>
+        <item>Smoothie de yogurt y bayas</item>
+        <item>Dip de yogurt y pepino</item>
+    </string-array>
+    <string-array name="frutas">
+        <item>Ensalada de frutas</item>
+        <item>Batido de frutas</item>
+        <item>Brochetas de frutas</item>
+        <item>Tostada de aguacates con fresa</item>
+    </string-array>
+
+    <string-array name="avena_desc">
+        <item>Deliciosas galletas horneadas con avena y otros ingredientes nutritivos.</item>
+        <item>Pan saludable hecho con harina de avena y otros ingredientes naturales.</item>
+        <item>Desayuno nutritivo y rápido hecho con avena y yogurt.</item>
+        <item>Tortillas saludables y deliciosas hechas con harina de avena y otros ingredientes naturales.</item>
+    </string-array>
+    <string-array name="huevo_desc">
+        <item>Desayuno saludable y lleno de proteínas hecho con huevos y vegetales.</item>
+        <item>Plato español hecho con huevos, patatas y cebolla.</item>
+        <item>Plato francés hecho con huevos, queso y otros ingredientes.</item>
+        <item>Plato clásico de brunch hecho con huevos pochados, jamón y salsa holandesa.</item>
+    </string-array>
+    <string-array name="pan_desc">
+        <item>Sándwich saludable y sabroso hecho con pollo, aguacate y otros ingredientes.</item>
+        <item>Entrante italiano hecho con pan tostado, tomates y otros ingredientes.</item>
+        <item>Desayuno dulce hecho con pan, huevos y otros ingredientes.</item>
+        <item>Plato español simple pero delicioso hecho con pan, tomate y jamón.</item>
+    </string-array>
+    <string-array name="yogurt_desc">
+        <item>Postre delicioso y saludable hecho con yogurt, frutas y otros ingredientes.</item>
+        <item>Salsa saludable y deliciosa hecha con yogurt y otros ingredientes.</item>
+        <item>Bebida saludable y refrescante hecha con yogurt y bayas.</item>
+        <item>Dip saludable y sabroso hecho con yogurt, pepino y otros ingredientes.</item>
+    </string-array>
+    <string-array name="frutas_desc">
+        <item>Ensalada saludable y refrescante hecha con una variedad de frutas.</item>
+        <item>Bebida saludable y deliciosa hecha con frutas y otros ingredientes.</item>
+        <item>Snack saludable y fácil de preparar hecho con frutas.</item>
+        <item>Tostada saludable y sabrosa hecha con aguacate, fresas y otros ingredientes.</item>
+    </string-array>
+<!-- almuerzo//////////////////////////////////////-->
+    <string-array name="arroz">
+        <item>Arroz con pollo</item>
+        <item>Arroz frito</item>
+        <item>Ensalada de arroz</item>
+        <item>Risotto de champiñones</item>
+    </string-array>
+
+    <string-array name="carne">
+        <item>Carne guisada</item>
+        <item>Albondigas en salsa</item>
+        <item>Fajitas de carne</item>
+        <item>Carne a la parrilla</item>
+    </string-array>
+
+    <string-array name="pescado">
+        <item>Ceviche</item>
+        <item>Salmon al horno</item>
+        <item>Paella de mariscos</item>
+        <item>Sopa de pescado</item>
+    </string-array>
+
+    <string-array name="pollo">
+        <item>Pollo a la plancha</item>
+        <item>Pollo al curry</item>
+        <item>Ensalada de pollo</item>
+        <item>Pollo al horno con verduras</item>
+    </string-array>
+
+    <string-array name="vegetales">
+        <item>Salteado de vegetales</item>
+        <item>Ensalada de quinoa</item>
+        <item>Pizza de verduras</item>
+        <item>Curry de verduras</item>
+    </string-array>
+
+    <string-array name="arroz_desc">
+        <item>Un plato de arroz con trozos de pollo cocidos en una salsa y sazonado con especias.</item>
+        <item>Un plato de arroz salteado con verduras, carne y huevos, sazonado con salsa de soja y especias.</item>
+        <item>Una ensalada fría hecha con arroz, verduras y aderezo de su elección.</item>
+        <item>Un plato cremoso de arroz italiano hecho con champiñones, queso y hierbas.</item>
+    </string-array>
+
+    <string-array name="carne_desc">
+        <item>Un plato de carne cocida a fuego lento en una salsa espesa y sazonado con especias.</item>
+        <item>Un plato de albóndigas de carne servido en una salsa de tomate y sazonado con hierbas y especias.</item>
+        <item>Un plato de carne a la parrilla con pimientos y cebolla, servido con tortillas y aderezos.</item>
+        <item>Un plato de carne a la parrilla sazonado con hierbas y especias y servido con una guarnición de su elección.</item>
+    </string-array>
+
+    <string-array name="pescado_desc">
+        <item>Un plato de pescado crudo marinado en jugo de limón o lima y sazonado con especias y verduras.</item>
+        <item>Un plato de salmón al horno con hierbas y especias, servido con una guarnición de su elección.</item>
+        <item>Un plato de arroz español hecho con mariscos y sazonado con azafrán y hierbas.</item>
+        <item>Una sopa de pescado hecha con pescado, verduras y sazonada con hierbas y especias.</item>
+    </string-array>
+
+    <string-array name="pollo_desc">
+        <item>Un plato de pollo a la parrilla sazonado con hierbas y especias, servido con una guarnición de su elección.</item>
+        <item>Un plato de pollo cocido en una salsa de curry y sazonado con especias, servido con arroz.</item>
+        <item>Una ensalada fría hecha con trozos de pollo cocido, verduras y aderezo de su elección.</item>
+        <item>Un plato de pollo al horno con una mezcla de verduras, sazonado con hierbas y especias.</item>
+    </string-array>
+
+    <string-array name="vegetales_desc">
+    <item>Un plato rápido y fácil hecho con una mezcla de verduras salteadas en aceite y sazonado con salsa de soja y especias.</item>
+        <item>Una ensalada fría hecha con quinoa cocida, verduras y aderezo de su elección.</item>
+        <item>Una pizza hecha con una base de masa y cubierta con una mezcla de verduras, queso y especias.</item>
+        <item>Un plato de curry hecho con una mezcla de verduras y sazonado con especias, servido con arroz.</item>
+    </string-array>
+    <!-- Cena///////////////////////////////////-->
+    <string-array name="harina">
+        <item>Pizza</item>
+        <item>Empanadas de carne</item>
+        <item>Panqueques</item>
+        <item>Gnocchi de patata</item>
+    </string-array>
+
+    <string-array name="espaguetti">
+        <item>Spaghetti a la boloñesa</item>
+        <item>Spaghetti al pesto</item>
+        <item>Spaghetti carbonara</item>
+        <item>Spaghetti con mariscos</item>
+    </string-array>
+
+    <string-array name="platano">
+        <item>Tostones</item>
+        <item>Mofongo</item>
+        <item>Platanos maduros fritos</item>
+        <item>Pastelon de platano maduro</item>
+    </string-array>
+
+    <string-array name="cPollo">
+        <item>Pollo a la parrilla</item>
+        <item>Pollo a la naranja con arroz</item>
+        <item>Pollo al horno con patatas</item>
+        <item>Pollo fajitas con guacamole</item>
+    </string-array>
+
+    <string-array name="salmon">
+        <item>Salmon a la parrilla</item>
+        <item>Salmon al horno con brocoli</item>
+        <item>Salmon a la plancha con esparragos</item>
+        <item>Salmon en papillote con verduras</item>
+    </string-array>
+
+    <string-array name="harina_desc">
+        <item>Una deliciosa masa de pizza cubierta con queso, salsa de tomate y los ingredientes de su elección.</item>
+        <item>Deliciosos pasteles rellenos de carne sazonada, cebolla y pimiento.</item>
+        <item>Un desayuno clásico hecho con harina, huevos y leche, servido con sirope y mantequilla.</item>
+        <item>Pequeñas bolas de patata y harina servidas con salsa y queso.</item>
+    </string-array>
+
+    <string-array name="espaguetti_desc">
+        <item>Un plato de pasta con salsa de tomate y carne molida.</item>
+        <item>Un plato de pasta con salsa de albahaca, ajo, piñones y queso parmesano.</item>
+        <item>Un plato de pasta con una salsa cremosa de huevo, panceta y queso.</item>
+        <item>Un plato de pasta con una mezcla de mariscos y salsa de tomate.</item>
+    </string-array>
+
+    <string-array name="platano_desc">
+        <item>Rodajas de plátano verde fritas y saladas.</item>
+        <item>Un plato hecho con puré de plátanos fritos, ajo y chicharrón.</item>
+        <item>Plátanos maduros fritos en aceite y sazonados con sal y pimienta.</item>
+        <item>Un pastel hecho con capas de plátanos maduros, carne molida y queso.</item>
+    </string-array>
+
+    <string-array name="cPollo_desc">
+        <item>Pechugas de pollo sazonadas y asadas a la parrilla.</item>
+        <item>Pollo cocido en una salsa agridulce de naranja y servido con arroz.</item>
+        <item>Muslos de pollo asados en el horno con patatas y sazonados con hierbas y especias.</item>
+        <item>Tiras de pollo sazonadas y cocidas con pimiento y cebolla, servidas con guacamole.</item>
+    </string-array>
+    <string-array name="salmon_desc">
+        <item>Sabrosa y saludable forma de preparar el salmón en la parrilla.</item>
+        <item>Una deliciosa y saludable opción para una cena rápida y fácil.</item>
+        <item>Una receta fácil y rápida para disfrutar de una cena saludable y deliciosa.</item>
+        <item>Una manera fácil y deliciosa de cocinar el salmón, conservando todo su sabor y nutrientes.</item>
+    </string-array>
+
+    <!-- Bebidas////////////////////////////////////////////////-->
+
+
+    <string-array name="cerveza">
+        <item>Michelada</item>
+        <item>Clamato</item>
+        <item>Cerveza con limón</item>
+        <item>Cerveza con sal y limón</item>
+    </string-array>
+
+    <string-array name="vodka">
+        <item>Bloody Mary</item>
+        <item>Cosmopolitan</item>
+        <item>Screwdriver</item>
+        <item>White Russian</item>
+    </string-array>
+
+    <string-array name="vino">
+        <item>Sangría</item>
+        <item>Mimosa</item>
+        <item>Vino caliente</item>
+        <item>Vino con soda</item>
+    </string-array>
+
+    <string-array name="ron">
+        <item>Mojito</item>
+        <item>Daiquiri</item>
+        <item>Piña colada</item>
+        <item>Cuba libre</item>
+    </string-array>
+
+    <string-array name="whisky">
+        <item>Whisky sour</item>
+        <item>Manhattan</item>
+        <item>Old fashioned</item>
+        <item>Irish coffee</item>
+    </string-array>
+
+    <string-array name="cerveza_desc">
+        <item>Michelada - Cerveza con jugo de limón, salsa picante y sal en el borde del vaso</item>
+        <item>Clamato - Cerveza con jugo de tomate, limón, salsa picante y sal</item>
+        <item>Cerveza con limón - Cerveza con un toque de jugo de limón</item>
+        <item>Cerveza con sal y limón - Cerveza con una pizca de sal y un toque de jugo de limón</item>
+    </string-array>
+
+    <string-array name="vodka_desc">
+        <item>Bloody Mary - Vodka con jugo de tomate, salsa picante y especias</item>
+        <item>Cosmopolitan - Vodka con jugo de arándanos, Cointreau y limón</item>
+        <item>Screwdriver - Vodka con jugo de naranja</item>
+        <item>White Russian - Vodka con licor de café y crema</item>
+    </string-array>
+
+    <string-array name="vino_desc">
+        <item>Sangría - Vino tinto con frutas y jugo de naranja</item>
+        <item>Mimosa - Vino espumoso con jugo de naranja</item>
+        <item>Vino caliente - Vino caliente con especias y azúcar</item>
+        <item>Vino con soda - Vino blanco con agua con gas y hielo</item>
+    </string-array>
+
+    <string-array name="ron_desc">
+        <item>Mojito - Ron con menta, limón, azúcar y soda</item>
+        <item>Daiquiri - Ron con jugo de limón y azúcar</item>
+        <item>Piña colada - Ron con crema de coco y jugo de piña</item>
+        <item>Cuba libre - Ron con cola y limón</item>
+    </string-array>
+
+    <string-array name="whisky_desc">
+        <item>Whisky sour - Whisky con jugo de limón y azúcar</item>
+        <item>Manhattan - Whisky con vermut dulce y amargo y cereza</item>
+        <item>Old fashioned - Whisky con azúcar, amargo de angostura y naranja</item>
+        <item>Irish coffee - Whisky con café y crema</item>
+    </string-array>
+    <!-- Ensalada/////////////////////////////////-->
+    <string-array name="lechuga">
+        <item>Ensalada de lechuga y atún</item>
+        <item>Ensalada de lechuga y aguacate</item>
+        <item>Ensalada de lechuga, queso y nueces</item>
+        <item>Ensalada de lechuga y fresas</item>
+    </string-array>
+
+    <string-array name="pepino">
+        <item>Ensalada de pepino y tomate</item>
+        <item>Ensalada de pepino y yogur</item>
+        <item>Ensalada de pepino, cebolla y pimiento</item>
+        <item>Ensalada de pepino y aguacate</item>
+    </string-array>
+
+    <string-array name="remolacha">
+        <item>Ensalada de remolacha y queso feta</item>
+        <item>Ensalada de remolacha, naranja y menta</item>
+        <item>Ensalada de remolacha y manzana</item>
+        <item>Ensalada de remolacha, espinacas y garbanzos</item>
+    </string-array>
+
+    <string-array name="repollo">
+        <item>Ensalada de repollo y zanahoria</item>
+        <item>Ensalada de repollo, manzana y nueces</item>
+        <item>Ensalada de repollo y aguacate</item>
+        <item>Ensalada de repollo y cebolla</item>
+    </string-array>
+
+    <string-array name="tomate">
+        <item>Ensalada de tomate y mozzarella</item>
+        <item>Ensalada de tomate y aguacate</item>
+        <item>Ensalada de tomate y cebolla</item>
+        <item>Ensalada de tomate, pepino y feta</item>
+    </string-array>
+
+    <string-array name="lechuga_desc">
+        <item>Una refrescante ensalada de lechuga acompañada de atún.</item>
+        <item>Una deliciosa ensalada de lechuga acompañada de aguacate.</item>
+        <item>Una sabrosa ensalada de lechuga mezclada con queso y nueces.</item>
+        <item>Una fresca ensalada de lechuga combinada con fresas.</item>
+    </string-array>
+    <string-array name="pepino_desc">
+        <item>Una ensalada refrescante de pepino y tomate.</item>
+        <item>Una ensalada de pepino con una cremosa mezcla de yogur.</item>
+        <item>Una ensalada de pepino mezclada con cebolla y pimiento.</item>
+        <item>Una deliciosa ensalada de pepino combinada con aguacate.</item>
+    </string-array>
+    <string-array name="remolacha_desc">
+        <item>Una ensalada de remolacha combinada con queso feta.</item>
+        <item>Una ensalada de remolacha con naranja y menta.</item>
+        <item>Una ensalada de remolacha con manzana.</item>
+        <item>Una ensalada de remolacha mezclada con espinacas y garbanzos.</item>
+    </string-array>
+    <string-array name="repollo_desc">
+        <item>Una ensalada de repollo acompañada de zanahoria.</item>
+        <item>Una ensalada de repollo combinada con manzana y nueces.</item>
+        <item>Una deliciosa ensalada de repollo mezclada con aguacate.</item>
+        <item>Una ensalada de repollo combinada con cebolla.</item>
+    </string-array>
+    <string-array name="tomate_desc">
+        <item>Una deliciosa ensalada italiana con tomates frescos cortados en rodajas, queso mozzarella y hojas de albahaca fresca. Se adereza con aceite de oliva, sal y pimienta.</item>
+        <item>Una ensalada fresca y saludable que combina tomates cortados en cubos, aguacate, cebolla roja y cilantro fresco. Se adereza con lima, aceite de oliva, sal y pimienta.</item>
+        <item>Una ensalada simple y clásica que combina tomates cortados en rodajas finas, cebolla roja y hojas de perejil fresco. Se adereza con aceite de oliva, vinagre balsámico, sal y pimienta.</item>
+        <item>Una ensalada griega tradicional que combina tomates cortados en cubos, pepino, cebolla roja, pimiento verde y queso feta. Se adereza con aceite de oliva, vinagre de vino tinto, orégano, sal y pimienta.</item>
+    </string-array>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,14 +17,14 @@
 
         <ImageView
             android:id="@+id/imagen"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:srcCompat="@tools:sample/avatars" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    >
+    android:layout_marginStart="5dp">
 
     <TextView
         android:id="@+id/titulo"
