@@ -8,7 +8,7 @@ import android.view.View;
 
 public class Desayuno extends AppCompatActivity {
 
-    public static String dTipo;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,31 +17,31 @@ public class Desayuno extends AppCompatActivity {
     }
 
     public void goAvena(View view) {
-        dTipo = "avena";
+        MainActivity.dTipo = "avena";
         Intent i = new Intent(Desayuno.this, Lista.class);
         startActivity(i);
     }
 
     public void goHuevo(View view) {
-        dTipo = "huevo";
+        MainActivity.dTipo = "huevo";
         Intent i = new Intent(Desayuno.this, Lista.class);
         startActivity(i);
     }
 
     public void goPan(View view) {
-        dTipo = "pan";
+        MainActivity.dTipo = "pan";
         Intent i = new Intent(Desayuno.this, Lista.class);
         startActivity(i);
     }
 
     public void goYogurt(View view) {
-        dTipo = "yogurt";
+        MainActivity.dTipo = "yogurt";
         Intent i = new Intent(Desayuno.this, Lista.class);
         startActivity(i);
     }
 
     public void goFrutas(View view) {
-        dTipo = "fruta";
+        MainActivity.dTipo = "fruta";
         Intent i = new Intent(Desayuno.this, Lista.class);
         startActivity(i);
     }
